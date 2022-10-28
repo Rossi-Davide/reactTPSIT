@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Mappa from './Mappa';
 
 export default class App extends Component {
 
@@ -39,6 +40,7 @@ export default class App extends Component {
           <p>Longitudine: {this.state.longitudine}</p>
           <p>Latitudine:{this.state.latitudine}</p>
           <a className='btn btn-primary' href={indirizzo}>Mostra località</a>
+          <Mappa coordinate={this.state}></Mappa>
         </div>
       )
     }else{
