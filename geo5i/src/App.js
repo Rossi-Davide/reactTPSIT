@@ -16,7 +16,7 @@ export default class App extends Component {
 
     window.navigator.geolocation.getCurrentPosition((pos)=>{
 
-      //console.log(pos);
+      
 
       this.setState({
         longitudine: pos.coords.longitude,
