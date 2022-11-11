@@ -15,13 +15,17 @@ class Navbar extends Component {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
+                        <li className="nav-item mx-4">
                             
                             <NavLink className="navbar-brand text-white" to="/">Home</NavLink>
                             
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item mx-4">
                         <NavLink className="navbar-brand text-white" to="/mappa">Mappa</NavLink>
+
+                        </li>
+                        <li className="nav-item mx-4">
+                        <NavLink className="navbar-brand text-white" to="/api">Api</NavLink>
 
                         </li>
                     </ul>
